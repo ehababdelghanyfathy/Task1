@@ -1,0 +1,209 @@
+/* Start Body */
+
+*{box-sizing: border-box}
+@font-face{
+    font-family: cairo;
+    src: url("Cairo/Cairo-Bold.ttf")
+}
+body{
+    font-family: cairo;
+}
+
+/* end Body */
+
+/* nav */
+.nav { direction: rtl;}
+.nav ul{   
+
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 120px;
+    font-size: .7rem;
+    padding-right: 7%;    
+}
+.nav ul li {
+    margin: 0 20px;
+    float: left;
+}
+.nav ul a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;}
+
+    /* nav */
+
+
+/* start header */
+.header {
+    background-image: url(../images/header-bg.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+   
+}
+.header-head{
+    color: yellow;
+    position: relative;
+    padding-left: 8%;
+}
+ 
+.center {
+    /* right: 25%;
+    top: 30%;
+    position: absolute;
+    left: auto; */
+    text-align: center;
+    /* display: inline-block; */
+    padding-top: 8%;
+
+}
+/* end  header */
+
+.btn a{
+    padding-bottom: 120px;
+    background: yellow;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    border-radius: 7px;
+}
+.welc {
+    font-size: 2rem;
+}
+.its {font-size: 4rem;}
+.main {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 180px;
+    
+
+}
+.serv {
+    flex: 100%;
+    padding: 20px;
+    
+    
+}
+.sec1 {
+    flex: 30%;
+    padding: 20px;
+}
+.sec1 >p {
+    font-size: 10px;
+    /* white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: ellipsis;  */
+
+}
+.serv > h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+}
+.custom {
+    color: white;
+    font-size: 2rem;
+    font-size: 50px;
+}
+.main section > h6 {
+    font-size: 1rem;
+}
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    display: flex;
+    width: 100px;
+    background: rgb(241, 241, 78);
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.main2 {
+    /* display: flex; */
+}
+.porf {
+    flex: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.sec6 {
+    flex: 33%;
+    padding: 15px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+.h6 {
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.form {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+.form h1{
+    margin: 0;
+
+}
+.form-cont {
+    display: flex;
+  
+    padding: 10px 100px;}
+
+.left {
+    flex-direction: column;
+    flex: 50%;
+    display: flex;
+    padding: 20px
+    
+    
+}
+.fn {
+    padding: 5px;
+   
+    flex: 100%;
+    width: 100%;
+}
+input {
+    height: 100%; 
+    width: 100%;
+    border-radius: 7px;
+    padding: 5px;
+}
+.right {
+    flex-direction: column;
+    flex: 50%;
+    display: flex;
+    padding: 25px; 
+    
+}
+textarea {border-radius: 7px;
+    padding: 5px;
+}
+.footer {
+    text-align: center;
+    color: gray;
+    text-align: center;
+}
+p {
+    /* white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+.sec6  h6 {    padding-top: 8px;}
+.sec1 h6 {padding-top: 15px; }
